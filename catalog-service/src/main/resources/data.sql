@@ -1,8 +1,6 @@
-insert into catalog(product_id, product_name ,stock, unit_price)
-    values ("abc-01", "aaa" , 100 ,1500);
-insert into catalog(product_id, product_name ,stock, unit_price)
-    values ("abc-02", "bbb" , 100 ,1800);
-insert into catalog(product_id, product_name ,stock, unit_price)
-    values ("abc-02", "ccc" , 120 ,1500);
-insert into catalog(product_id, product_name ,stock, unit_price)
-    values ("abc-02", "ddd" , 300 ,2000);
+insert into catalog(product_id, product_name, stock, unit_price)
+values('CATALOG-001', 'Berlin', 100, 1500);
+insert into catalog(product_id, product_name, stock, unit_price)
+values('CATALOG-002', 'Tokyo', 110, 1000);
+insert into catalog(product_id, product_name, stock, unit_price)
+values('CATALOG-003', 'Stockholm', 120, 2000);

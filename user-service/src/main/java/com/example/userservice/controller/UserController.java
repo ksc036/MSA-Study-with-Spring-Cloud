@@ -20,7 +20,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/user-service/")
+@RequestMapping("/")
 public class UserController {
     private Environment env;
     private UserService userService;
@@ -28,13 +28,11 @@ public class UserController {
     @Autowired
     private Greeting greeting;
 
-
+    @Autowired
     public UserController(Environment env, UserService userService) {
         this.env = env;
         this.userService = userService;
     }
-
-    @Autowired
 
 
     @GetMapping("/health_check")
